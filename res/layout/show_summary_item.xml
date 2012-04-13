@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="1dip"
+    android:paddingBottom="1dip">
+
+    <TextView
+        android:id="@+id/person_name"
+   		android:layout_height="wrap_content"
+   		android:layout_width="100dip"
+		android:singleLine="true"
+   		android:textSize="6pt"/>
+    
+    <TextView
+        android:id="@+id/person_balance"
+   		android:layout_height="wrap_content"
+   		android:layout_width="100dip"
+		android:singleLine="true"
+   		android:textSize="6pt"/>
+    
+</LinearLayout>

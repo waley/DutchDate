@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TextView android:id="@+id/payerSelectLabel"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:textSize="10pt"
+		  android:text ="Please select payer:"   />
+    
+	<Spinner android:id = "@+id/payerSelector"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    />    
+	<TextView android:id="@+id/payeeSelectLabel"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:textSize="10pt"
+		  android:text ="Please select payee:"   />
+    
+	<Spinner android:id = "@+id/payeeSelector"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    />    
+	
+	<TextView android:id="@+id/moneyInputLabel"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:textSize="10pt"
+		  android:text ="Please input money:"   />
+    
+	<EditText android:id = "@+id/moneyInputEdit"
+    	android:layout_width="fill_parent"
+ 		android:gravity="right"    	
+    	android:layout_height="wrap_content"/>
+	
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >	
+    
+	<Button android:id="@+id/paymentEnterButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"        
+        android:text="Enter"/>
+    
+    <Button android:id="@+id/paymentCancelButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"        
+        android:text="Cancel"/>
+</LinearLayout>  
+  
+</LinearLayout>

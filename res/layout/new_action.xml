@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<TextView android:id = "@+id/actionNameLable"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Action Name:"/>
+
+<AutoCompleteTextView 
+       android:id = "@+id/actionNameEdit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:dropDownHorizontalOffset="20dp"
+		android:completionThreshold="1" />
+
+<TextView android:id = "@+id/actionPlaceLable"
+		android:layout_width="fill_parent"    
+		android:layout_height="wrap_content"
+		android:text="Action Place:"
+    />
+
+<AutoCompleteTextView 
+       android:id = "@+id/actionPlaceEdit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:dropDownHorizontalOffset="20dp"
+		android:completionThreshold="1" />
+
+<TextView android:id = "@+id/actionDateLable"
+		android:layout_width="fill_parent"    
+		android:layout_height="wrap_content"
+		android:text="Action Date:"
+    />
+
+<DatePicker android:id = "@+id/actionDateEdit"
+    	android:layout_width="fill_parent"
+    	android:layout_height="120dip" />
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<TextView android:id = "@+id/actionHeadcountLable"
+		android:layout_width="wrap_content"    
+		android:layout_height="wrap_content"
+		android:text="Action Headcount:"/>
+
+<EditText android:id = "@+id/actionHeadcountEdit"
+    	android:layout_width="200dip"
+ 		android:layout_gravity="right"
+ 		android:gravity="right"
+    	android:layout_height="wrap_content" />
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+<TextView android:id = "@+id/actionConsumeLable"
+		android:layout_width="wrap_content"    
+		android:layout_height="wrap_content"
+		android:text="Action Consume:   "/>
+
+<EditText android:id = "@+id/actionConsumeEdit"
+    	android:layout_width="200dip"
+ 		android:layout_gravity="right"
+ 		android:gravity="right"
+    	android:layout_height="wrap_content" />
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+<Button android:id = "@+id/actionAttendeesSelectButton"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"		
+		android:text="Select Attendees"/>
+
+<Button android:id = "@+id/actionPayerSelectButton"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"		
+		android:text="Select Payer"/>
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+<Button android:id = "@+id/actionEnterButton"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"
+		android:text="Enter"  />  
+		
+<Button android:id = "@+id/actionCancelButton"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"
+		android:text="Cancel"  />  
+		
+</LinearLayout>
+
+</LinearLayout>
